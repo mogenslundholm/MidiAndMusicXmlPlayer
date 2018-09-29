@@ -1,0 +1,437 @@
+object FormMidiMixer: TFormMidiMixer
+  Left = 263
+  Height = 404
+  Top = 94
+  Width = 646
+  Caption = 'Midi Mixer'
+  ClientHeight = 404
+  ClientWidth = 646
+  Color = 207
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  OnCreate = OnCreate
+  OnResize = OnResize
+  LCLVersion = '1.8.0.6'
+  object BevelOuter: TBevel
+    Left = 8
+    Height = 25
+    Top = 8
+    Width = 33
+  end
+  object BevelMain: TBevel
+    Left = 16
+    Height = 25
+    Top = 16
+    Width = 33
+  end
+  object BevelMixer: TBevel
+    Left = 24
+    Height = 25
+    Top = 24
+    Width = 33
+  end
+  object LabelMixer100: TLabel
+    Left = 600
+    Height = 13
+    Top = 176
+    Width = 26
+    Caption = '100%'
+    ParentColor = False
+  end
+  object LabelMixer200: TLabel
+    Left = 597
+    Height = 13
+    Top = 56
+    Width = 26
+    Caption = '200%'
+    ParentColor = False
+  end
+  object LabelMixer0: TLabel
+    Left = 597
+    Height = 13
+    Top = 296
+    Width = 14
+    Caption = '0%'
+    ParentColor = False
+  end
+  object LabelMain100: TLabel
+    Left = 37
+    Height = 13
+    Top = 56
+    Width = 26
+    Caption = '100%'
+    ParentColor = False
+  end
+  object LabelMain0: TLabel
+    Left = 61
+    Height = 13
+    Top = 320
+    Width = 14
+    Caption = '0%'
+    ParentColor = False
+  end
+  object Edit1: TEdit
+    Left = 64
+    Height = 21
+    Top = 24
+    Width = 17
+    TabStop = False
+    TabOrder = 0
+    Text = '1'
+    Visible = False
+  end
+  object Edit2: TEdit
+    Left = 96
+    Height = 21
+    Top = 24
+    Width = 17
+    TabStop = False
+    TabOrder = 1
+    Text = '1'
+    Visible = False
+  end
+  object Edit3: TEdit
+    Left = 128
+    Height = 21
+    Top = 24
+    Width = 17
+    TabStop = False
+    TabOrder = 2
+    Text = '1'
+    Visible = False
+  end
+  object Edit4: TEdit
+    Left = 160
+    Height = 21
+    Top = 24
+    Width = 17
+    TabStop = False
+    TabOrder = 3
+    Text = '1'
+    Visible = False
+  end
+  object Edit5: TEdit
+    Left = 192
+    Height = 21
+    Top = 24
+    Width = 17
+    TabStop = False
+    TabOrder = 4
+    Text = '1'
+    Visible = False
+  end
+  object Edit6: TEdit
+    Left = 224
+    Height = 21
+    Top = 24
+    Width = 17
+    TabStop = False
+    TabOrder = 5
+    Text = '1'
+    Visible = False
+  end
+  object Edit7: TEdit
+    Left = 256
+    Height = 21
+    Top = 24
+    Width = 17
+    TabStop = False
+    TabOrder = 6
+    Text = '1'
+    Visible = False
+  end
+  object Edit8: TEdit
+    Left = 288
+    Height = 21
+    Top = 24
+    Width = 17
+    TabStop = False
+    TabOrder = 7
+    Text = '1'
+    Visible = False
+  end
+  object Edit9: TEdit
+    Left = 320
+    Height = 21
+    Top = 24
+    Width = 17
+    TabStop = False
+    TabOrder = 8
+    Text = '1'
+    Visible = False
+  end
+  object Edit10: TEdit
+    Left = 352
+    Height = 21
+    Top = 24
+    Width = 17
+    TabStop = False
+    TabOrder = 9
+    Text = '1'
+    Visible = False
+  end
+  object Edit11: TEdit
+    Left = 384
+    Height = 21
+    Top = 24
+    Width = 17
+    TabStop = False
+    TabOrder = 10
+    Text = '1'
+    Visible = False
+  end
+  object Edit12: TEdit
+    Left = 416
+    Height = 21
+    Top = 24
+    Width = 17
+    TabStop = False
+    TabOrder = 11
+    Text = '1'
+    Visible = False
+  end
+  object Edit13: TEdit
+    Left = 448
+    Height = 21
+    Top = 24
+    Width = 17
+    TabStop = False
+    TabOrder = 12
+    Text = '1'
+    Visible = False
+  end
+  object Edit14: TEdit
+    Left = 480
+    Height = 21
+    Top = 24
+    Width = 17
+    TabStop = False
+    TabOrder = 13
+    Text = '1'
+    Visible = False
+  end
+  object Edit15: TEdit
+    Left = 512
+    Height = 21
+    Top = 24
+    Width = 17
+    TabStop = False
+    TabOrder = 14
+    Text = '1'
+    Visible = False
+  end
+  object Edit16: TEdit
+    Left = 544
+    Height = 21
+    Top = 24
+    Width = 17
+    TabStop = False
+    TabOrder = 15
+    Text = '1'
+    Visible = False
+  end
+  object EditMain: TEdit
+    Left = 16
+    Height = 21
+    Top = 24
+    Width = 41
+    TabStop = False
+    TabOrder = 16
+    Text = '1'
+    Visible = False
+  end
+  object TrackBarMain: TTrackBar
+    Left = 8
+    Height = 257
+    Top = 72
+    Width = 57
+    Max = 127
+    Orientation = trVertical
+    Position = 0
+    TabStop = False
+    TabOrder = 17
+  end
+  object TrackBar1: TTrackBar
+    Left = 65
+    Height = 257
+    Top = 56
+    Width = 20
+    Max = 127
+    Orientation = trVertical
+    Position = 64
+    TabStop = False
+    TabOrder = 18
+  end
+  object TrackBar2: TTrackBar
+    Left = 97
+    Height = 257
+    Top = 56
+    Width = 20
+    Max = 127
+    Orientation = trVertical
+    Position = 64
+    TabStop = False
+    TabOrder = 19
+  end
+  object TrackBar3: TTrackBar
+    Left = 130
+    Height = 257
+    Top = 56
+    Width = 20
+    Max = 127
+    Orientation = trVertical
+    Position = 64
+    TabStop = False
+    TabOrder = 20
+  end
+  object TrackBar4: TTrackBar
+    Left = 162
+    Height = 257
+    Top = 56
+    Width = 20
+    Max = 127
+    Orientation = trVertical
+    Position = 64
+    TabStop = False
+    TabOrder = 21
+  end
+  object TrackBar5: TTrackBar
+    Left = 195
+    Height = 257
+    Top = 56
+    Width = 20
+    Max = 127
+    Orientation = trVertical
+    Position = 64
+    TabStop = False
+    TabOrder = 22
+  end
+  object TrackBar6: TTrackBar
+    Left = 227
+    Height = 257
+    Top = 56
+    Width = 20
+    Max = 127
+    Orientation = trVertical
+    Position = 64
+    TabStop = False
+    TabOrder = 23
+  end
+  object TrackBar7: TTrackBar
+    Left = 260
+    Height = 257
+    Top = 56
+    Width = 20
+    Max = 127
+    Orientation = trVertical
+    Position = 64
+    TabStop = False
+    TabOrder = 24
+  end
+  object TrackBar8: TTrackBar
+    Left = 292
+    Height = 257
+    Top = 56
+    Width = 20
+    Max = 127
+    Orientation = trVertical
+    Position = 64
+    TabStop = False
+    TabOrder = 25
+  end
+  object TrackBar9: TTrackBar
+    Left = 325
+    Height = 257
+    Top = 56
+    Width = 20
+    Max = 127
+    Orientation = trVertical
+    Position = 64
+    TabStop = False
+    TabOrder = 26
+  end
+  object TrackBar10: TTrackBar
+    Left = 357
+    Height = 257
+    Top = 56
+    Width = 20
+    Max = 127
+    Orientation = trVertical
+    Position = 64
+    TabStop = False
+    TabOrder = 27
+  end
+  object TrackBar11: TTrackBar
+    Left = 390
+    Height = 257
+    Top = 56
+    Width = 20
+    Max = 127
+    Orientation = trVertical
+    Position = 64
+    TabStop = False
+    TabOrder = 28
+  end
+  object TrackBar12: TTrackBar
+    Left = 422
+    Height = 257
+    Top = 56
+    Width = 20
+    Max = 127
+    Orientation = trVertical
+    Position = 64
+    TabStop = False
+    TabOrder = 29
+  end
+  object TrackBar13: TTrackBar
+    Left = 455
+    Height = 257
+    Top = 56
+    Width = 20
+    Max = 127
+    Orientation = trVertical
+    Position = 64
+    TabStop = False
+    TabOrder = 30
+  end
+  object TrackBar14: TTrackBar
+    Left = 487
+    Height = 257
+    Top = 56
+    Width = 20
+    Max = 127
+    Orientation = trVertical
+    Position = 64
+    TabStop = False
+    TabOrder = 31
+  end
+  object TrackBar15: TTrackBar
+    Left = 520
+    Height = 257
+    Top = 56
+    Width = 20
+    Max = 127
+    Orientation = trVertical
+    Position = 64
+    TabStop = False
+    TabOrder = 32
+  end
+  object TrackBar16: TTrackBar
+    Left = 552
+    Height = 257
+    Top = 56
+    Width = 20
+    Max = 127
+    Orientation = trVertical
+    Position = 64
+    TabStop = False
+    TabOrder = 33
+  end
+  object Timer: TTimer
+    Interval = 200
+    OnTimer = TimerTimer
+    Left = 24
+    Top = 312
+  end
+end

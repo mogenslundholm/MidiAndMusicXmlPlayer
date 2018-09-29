@@ -1,0 +1,64 @@
+﻿På svensk ved Mogens Lundholm
+File@Arkiv
+Open@Öppna
+Save@Spara
+Exit And Delete Options@Avslut och ta bort inställningar
+Exit@Avslut
+View@Vis
+Decoding@Avkodning
+Mixer@Mixer
+Options@Inställningar
+Auto Play@Spela automatisk vid start
+Midi Select@Midi enhet
+Help@Hjälp
+Install@Installera
+About@Om
+Play Midi and MusicXml files@Spel Midi og MusicXml
+Stopped@Stop
+Playing@Spela
+Paused@Pause
+Tempo@Tempo
+Transpose@Transponera
+Loading@Laddar
+Original@Original
+Piano@ Piano
+Do Do@ Du Du
+Oboe@ Obo
+Violin@ Violin
+Rhythm@Rytme
+Circle@Upprepa
+Stop Playing@Stop avspelning
+Start Playing@Start avspelning
+Pause Playing@Pausa avspelning
+Decode Midi@Avkoda Midi
+Midi Mixer@Midi Mixer
+Main Volume@Huvudstyrka
+Version@Version
+Copyright@Kopirät
+An unsupported event was encounted@Ukänt kod i Midi-filen
+does not exist in directory@finnas inte i biblioteket
+Play Midi and MusicXml files@Spela Midi og MusicXml
+There are no Midi devices installed@Inga Midi-enheter är installerade
+No midi devices are present@Inga Midi-enheter finns
+Could not open file@Kunde inte öppna filen
+Acoustic Grand Piano@Koncertpiano
+Copy MidiAndMusicXmlPlayer.exe returned error code@Kopiering av MidiAndMusicXmlPlayer.exe gav felkod
+Restart as administrator to install (Right click)@Kör programmet som administratör för att installera (högerklick)
+Error@Fel
+Xml parsing error in line @Xml syntaxfel
+ - Xml parsing error in @ - Xml syntaxfel
+ line @ linje 
+Pitch is missing@Notvärde fattas
+Pitch is outside range@Not är utanför området"
+PartNumber is out of Range(@Part nummer är utanför området（
+Too many notes@För många noter
+No Xml Header found but "@Inget Xml huvud"
+Part number @Part nummer 
+ is missing@ fattas
+Xml Error: after <chord/> no pitch nor pause@Xml fel: efter <chord> fattas notvärde
+Incorrect MusicXml file: Reading Xml file ended in state @Fel i MusicXml-fil: Läsning sluttade i tilståndet 
+Starting@Startar
+Press here for start mark of cycle@Tryck för start av upprepning
+Press here for end mark of cycle@Tryck för slut av upprepning
+Continue - jump over end mark@Fortsätt - hop över slutmärket
+
