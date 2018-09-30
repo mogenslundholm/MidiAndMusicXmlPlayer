@@ -7,4 +7,10 @@ The panorama (move instrument from left to right) can be set. All this in order 
 
 The compiled program can be downloaded from: http://www.programfabriken.com/MidiAndMusicXmlPlayerPc64.zip
 
-Some MusicXML test files can be found at: https://wpmedia.musicxml.com/wp-content/uploads/2017/12/xmlsamples.zip
+Some MusicXML test-files can be found at: https://wpmedia.musicxml.com/wp-content/uploads/2017/12/xmlsamples.zip
+
+Quartertones and Microtones are also played as in Air a la Grecque of Charles de Lusse:
+https://programfabriken.com/Air_a_la_Grecque.zip
+and in the Turkish Makam-music.
+
+To get better sounds you can install another Synthesizer (instead of the poor Windows-soundfont). The soundfont called "Fluid" is good.
