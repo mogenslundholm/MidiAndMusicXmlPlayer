@@ -11,6 +11,7 @@ Some MusicXML-test-files can be found at: https://wpmedia.musicxml.com/wp-conten
 
 Quartertones and Microtones are also played as in Air a la Grecque of Charles de Lusse:
 https://programfabriken.com/Air_a_la_Grecque.zip
-and in the Turkish Makam-music.
+
+and in the Turkish Makam-music. See: "Karaosmanoğlu, M. K. (2012). A Turkish makam music symbolic database for music information retrieval: SymbTr. Proc. Int. Society for Music Information Retrieval (ISMIR). 
 
 To get better sounds you can install another Synthesizer (instead of the poor quality Windows-soundfont). The soundfont called "Fluid" is good.
