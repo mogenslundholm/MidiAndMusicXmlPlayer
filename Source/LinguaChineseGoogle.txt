@@ -1,0 +1,60 @@
+﻿由谷歌翻译翻译
+File@文件
+Open@打开
+Save@保存
+Exit And Delete Options@退出并删除选项
+Exit@出口
+View@视图
+Decoding@解码
+Mixer@搅拌机
+Options@选项
+Auto Play@自动播放
+Midi Select@迷笛选择
+Help@说明
+Install@安装
+About@关于
+Play Midi and MusicXml files@播放 MIDI 和 MusicXml 文件
+Stopped@停止
+Playing@播放
+Paused@暂停
+Tempo@速度
+Transpose@移调
+Loading@加载
+Original@原版的
+Piano@ 钢琴
+Do Do@郑裕玲
+Oboe@双簧管
+Violin@小提琴
+Rhythm@韵律
+Circle@圈
+Stop Playing@停止播放
+Start Playing@开始播放
+Pause Playing@暂停播放
+Decode Midi@解码迷笛
+Midi Mixer@迷笛搅拌机
+Main Volume@主音量
+Version@版本
+Copyright@版权
+An unsupported event was encounted@不支持的事件
+does not exist in directory@目录不存在
+Play Midi and MusicXml files@播放MIDI和MusicXml文件的
+There are no Midi devices installed@没有安装任何MIDI设备
+No midi devices are present@没有MIDI设备存在
+Could not open file@无法打开文件
+Acoustic Grand Piano@声学大钢琴
+Copy MidiAndMusicXmlPlayer.exe returned error code@复制MidiAndMusicXmlPlayer.exe返回错误代码
+Restart as administrator to install (Right click)@重启管理员安装（右键）
+Error@错误
+Xml parsing error in line @XML解析的路线错误
+ - Xml parsing error in @ - XML解析错误
+ line @行
+Pitch is missing@间距缺少
+Pitch is outside range@间距超出范围"
+PartNumber is out of Range(@型号是超出范围（
+Too many notes@太多的注意事项
+No Xml Header found but "@没有XML头找到，但"
+Part number @型号
+ is missing@丢失
+Xml Error: after <chord/> no pitch nor pause@XML错误：在<和弦/>无间距也不停顿
+Incorrect MusicXml file: Reading Xml file ended in state @不正确MusicXml文件：读结束状态的Xml文件
+Starting@开始

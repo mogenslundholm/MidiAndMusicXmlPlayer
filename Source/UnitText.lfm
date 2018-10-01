@@ -1,0 +1,103 @@
+object FormText: TFormText
+  Left = 62
+  Height = 413
+  Top = 121
+  Width = 802
+  Caption = 'Midi Text'
+  ClientHeight = 413
+  ClientWidth = 802
+  Color = clWhite
+  Font.Color = clWindowText
+  Font.Height = -13
+  Font.Name = 'MS Sans Serif'
+  OnActivate = OnActivate
+  OnCreate = OnCreate
+  OnPaint = OnPaint
+  OnResize = OnResize
+  LCLVersion = '1.8.0.6'
+  object StatusBar: TStatusBar
+    Left = 0
+    Height = 23
+    Top = 390
+    Width = 802
+    Panels = <    
+      item
+        Width = 50
+      end    
+      item
+        Width = 50
+      end    
+      item
+        Width = 50
+      end    
+      item
+        Width = 50
+      end>
+    SimplePanel = False
+    Visible = False
+  end
+  object TabControl: TTabControl
+    Left = 0
+    Height = 25
+    Top = 0
+    Width = 802
+    OnChange = OnChange
+    TabIndex = 0
+    Tabs.Strings = (
+      'Channel 1'
+      'Channel 2'
+      'Channel 3'
+      'Channel 4'
+      'Channel 5'
+      'Channel 6'
+      'Channel 7'
+      'Channel 8'
+      'Channel 9'
+      'Channel 10'
+      'Channel 11'
+      'Channel 12'
+      'Channel 13'
+      'Channel 14'
+      'Channel 15'
+      'Channel 16'
+    )
+    Align = alTop
+    TabOrder = 1
+  end
+  object ScrollBox: TScrollBox
+    Left = 0
+    Height = 365
+    Top = 25
+    Width = 802
+    HorzScrollBar.Page = 226
+    VertScrollBar.Page = 361
+    Align = alClient
+    ClientHeight = 361
+    ClientWidth = 781
+    TabOrder = 2
+    object ImageText: TImage
+      Left = 0
+      Height = 9999
+      Top = 0
+      Width = 781
+      Align = alTop
+    end
+    object MemoText: TMemo
+      Left = 76
+      Height = 90
+      Top = 104
+      Width = 150
+      Lines.Strings = (
+        'MemoText'
+      )
+      TabOrder = 0
+      Visible = False
+    end
+  end
+  object Timer: TTimer
+    Interval = 200
+    OnTimer = TimerTimer
+    left = 88
+    top = 8
+  end
+end
