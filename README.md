@@ -17,3 +17,5 @@ and in the Turkish Makam-music. See: "Karaosmanoğlu, M. K. (2012). A Turkish ma
 To get better sounds you can install another Synthesizer (instead of the poor quality Windows-soundfont). The soundfont called "Fluid" is good.
 
 About the MAC-OS-version see https://https://www.programfabriken.com (Source - load the program from Appstore)
+
+A draft manual exits on: http://programfabriken.com/MidiAndMusicXmlPlayerManual.odt
