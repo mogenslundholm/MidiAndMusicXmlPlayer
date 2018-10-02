@@ -19,3 +19,5 @@ To get better sounds you can install another Synthesizer (instead of the poor qu
 About the MAC-OS-version see https://https://www.programfabriken.com (Source - load the program from Appstore)
 
 A draft manual exits on: http://programfabriken.com/MidiAndMusicXmlPlayerManual.odt
+
+New source files are in folder "Source". Don't know how to remove all the other files, but ...
