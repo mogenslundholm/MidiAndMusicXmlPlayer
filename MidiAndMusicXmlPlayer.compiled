@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CONFIG>
-  <Compiler Value="C:\lazarus\fpc\3.0.4\bin\x86_64-win64\fpc.exe" Date="1266912119"/>
-  <Params Value=" -Twin64 -MDelphi -Scghi -CirotR -Ch10000000 -Cs10000000 -g -gl  -kSAFESEH -kDYNAMICBASE -kNXCOMPAT -kAPPCONTAINER -WG -l -vewnhibq -FuC:\lazarus\lcl\units\x86_64-win64\win32 -FuC:\lazarus\lcl\units\x86_64-win64 -FuC:\lazarus\components\lazutils\lib\x86_64-win64 -FuC:\lazarus\packager\units\x86_64-win64 -FuC:\Data\MidiAndMusicXmlPlayer\Build-Laz\ -dLCL -dLCLwin32 MidiAndMusicXmlPlayer.dpr"/>
-</CONFIG>
