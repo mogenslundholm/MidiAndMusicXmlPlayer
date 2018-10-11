@@ -3,7 +3,7 @@ MidiAndMusicXmlPlayer
 A Pascal/Delphi/Lazarus-project:
 
 MidiAndMusicXmlPlayer plays Midi-files and MusicXML files. These are note files made by some Notation Program
-See https://www.programfabriken.com to see a picture of the main window (classical delphi look)
+See https://www.programfabriken.com to see a picture of the main window (classical Delphi look)
 
 The voices/instruments of a tune may be selected by checkmarks. The tempo and transposition may be changed. Also the voices/instruments may be changed (to a few other instruments). E.g. I normally select the bas-voice and remove the checkmark for sopran, alt, tenor, then I try to learn the bas-voice and maybe a little slow. When I think I can sing the bas-voice I put on the other voices and may even remove the bas-voice to check that I can sing it alone.   
 
