@@ -1,1 +1,1 @@
-MidiAndMusicXmlPlayerTest runs MidiAndMusicXmlPlayer in seven instances in parallel. At the end the program WinMerge is called to compare the result to the original file-test-output. 
+MidiAndMusicXmlPlayerTest runs MidiAndMusicXmlPlayer in seven instances in parallel. At the end the program WinMerge is called to compare the result to the original file-test-output. Use Delphi XE or later to compile it.
